@@ -1,10 +1,12 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
+import { MuiTypography } from "./components/MuiTypography";
 function App() {
-  return <></>;
+  return (
+    <>
+      <MuiTypography />
+    </>
+  );
 }
 
 export default App;
