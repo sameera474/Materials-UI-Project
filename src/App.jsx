@@ -4,6 +4,7 @@ import { MuiTypography } from "./components/MuiTypography";
 import { MuiButton } from "./components/MuiButton";
 import { MuiTextField } from "./components/MuiTextField";
 import { MuiBox } from "./components/MuiBox";
+import { MuiCard } from "./components/MuiCard";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
+      <MuiCard />
     </>
   );
 }
