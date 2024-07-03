@@ -5,6 +5,7 @@ import { MuiButton } from "./components/MuiButton";
 import { MuiTextField } from "./components/MuiTextField";
 import { MuiBox } from "./components/MuiBox";
 import { MuiCard } from "./components/MuiCard";
+import { MuiSelect } from "./components/MuiSelect";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <MuiButton /> */}
       {/* <MuiTextField /> */}
       {/* <MuiBox /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiSelect />
     </>
   );
 }
