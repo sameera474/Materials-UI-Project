@@ -6,7 +6,9 @@ import "./App.css";
 // import { MuiBox } from "./components/MuiBox";
 // import { MuiCard } from "./components/MuiCard";
 // import { MuiSelect } from "./components/MuiSelect";
-import { MuiRadioButton } from "./components/MuiRadioButton";
+// import { MuiRadioButton } from "./components/MuiRadioButton";
+// import { MuiNavbar } from "./components/MuiNavbar";
+import { MuiGrid } from "./components/MuiGrid";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <MuiBox /> */}
       {/* <MuiCard /> */}
       {/* <MuiSelect /> */}
-      <MuiRadioButton />
+      {/* <MuiRadioButton /> */}
+      {/* <MuiNavbar /> */}
+      <MuiGrid />
     </>
   );
 }
